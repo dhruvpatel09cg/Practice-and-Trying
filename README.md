@@ -1,3 +1,3 @@
-# Form-Practice
+# Practice-and-Trying
 I've made this repo to upload all my raw practice codes like form by HTML or Calendar by python etc...
 I've uploaded row html form in this I'll try to remake it using CSS.
