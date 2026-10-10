@@ -1,0 +1,33 @@
+.cont{
+    perspective: 1000px;
+    display: flex;
+}
+.child,.child2{
+    height: 350px;
+    width: 200px;
+    margin: auto;
+    background-color: darkgoldenrod;
+    transition-duration: 3s;
+}
+.cont:hover{
+    .child {
+    transform: rotate3d(1,1,1,360deg) translate3d(-140px,100px,150px);
+    background-color: cadetblue;
+}
+    .child2 {
+    transform: rotate3d(1,-1,-1,360deg) translate3d(140px,100px,150px);
+    background-color: cadetblue;
+}
+}
+h1 {
+    font-size: 150px;
+    margin: auto;
+    padding: 40px 60px;
+}
+.a {
+    padding-left: 175px;
+    transform: rotateX(180deg);
+}
+.d {
+    margin-top: 0px;
+}
