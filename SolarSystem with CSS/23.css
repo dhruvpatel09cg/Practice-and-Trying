@@ -1,0 +1,141 @@
+* {
+    background-image: radial-gradient(circle, #010222e5, #021c3af5);
+}
+.solar {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.sun {
+    height: 14vh;
+    width: 6vw;
+    background-image: url(sun.png);
+    background-size: cover;
+    position: absolute;
+}
+.orbit {
+    position: absolute;
+    border: 1px dashed lightgray;
+    border-radius: 50%;
+    background: none;
+    animation-name: orbit;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.merc {
+    height: 20vh;
+    width: 9vw;
+    animation-duration: 3s;
+}
+.mercury {
+    height: 3vh;
+    width: 2vw;
+    background-image: url(mercury.png);
+    background-size: cover;
+    position: absolute;
+    left: 10%;
+}
+.venu {
+    height: 28vh;
+    width: 13vw;
+    animation-duration: 5s;
+}
+.venus {
+    height: 4vh;
+    width: 2vw;
+    background-image: url(venus.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 17%;
+}
+.eart {
+    height: 38vh;
+    width: 17vw;
+    animation-duration: 9s;
+}
+.earth {
+    height: 4vh;
+    width: 2vw;
+    background-image: url(earth.png);
+    background-size: cover;
+    position: absolute;
+    left: 88%;
+    top: 23%;
+}
+.mars {
+    height: 45vh;
+    width: 21vw;
+    animation-duration: 12s;
+}
+.marsss {
+    height: 2vh;
+    width: 1vw;
+    background-image: url(mars.png);
+    background-size: cover;
+    position: absolute;
+    right: 30%;
+}
+.jupi {
+    height: 54vh;
+    width: 26vw;
+    animation-duration: 15s;
+}
+.jupiter {
+    height: 8vh;
+    width: 4vw;
+    background-image: url(jupiter.png);
+    background-size: cover;
+    position: absolute;
+    top: 70%;
+}
+.satu {
+    height: 65vh;
+    width: 32vw;
+    animation-duration: 18s;
+}
+.saturn {
+    height: 8vh;
+    width: 4vw;
+    background-image: url(saturn.png);
+    background-size: cover;
+    position: absolute;
+    left: 20%;
+}
+.uran {
+    height: 78vh;
+    width: 37vw;
+    animation-duration: 22s;
+}
+.uranus {
+    height: 8vh;
+    width: 4vw;
+    background-image: url(uranus.png);
+    background-size: cover;
+    position: absolute;
+    top: 67%;
+}
+.nept {
+    height: 91vh;
+    width: 43vw;
+    animation-duration: 25s;
+}
+.neptune {
+    height: 8vh;
+    width: 4vw;
+    background-image: url(naptune.png);
+    background-size: cover;
+    position: absolute;
+    left: 70%;
+}
+@keyframes orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
